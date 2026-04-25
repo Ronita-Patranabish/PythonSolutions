@@ -1,0 +1,7 @@
+class Solution:
+    def kthSmallest(self, arr, k):
+        # Sort the array
+        arr.sort()
+        
+        # Return kth smallest element
+        return arr[k - 1]
